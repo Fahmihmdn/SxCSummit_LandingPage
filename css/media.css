@@ -1,0 +1,543 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Media Queries */
+
+
+/* Smaller than standard 960 (devices and browsers) */
+   @media only screen and (max-width: 959px) {
+   }
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+   @media only screen and (min-width: 768px) and (max-width: 959px) {
+
+/* layout */
+h1 {
+font-size: 100px;
+line-height: 100px;
+}
+
+h2 {
+font-size: 30px;
+line-height: 30px;
+}
+
+h3 {
+font-size: 30px;
+line-height: 30px;
+}
+
+h4 {
+font-size: 70px;
+line-height: 70px;
+}
+
+h5 {
+font-size: 30px;
+line-height: 30px;
+}
+
+.contact-intro-bottom-title {
+font-size: 30px;
+line-height: 30px;
+}
+
+/* borders */
+.borders {
+display: none;
+visibility: hidden;
+}
+
+/* countdown */
+ul#countdown li {
+width: 75px;
+}
+
+ul#countdown li span {
+font-size: 40px;
+line-height: 40px;
+}
+
+ul#countdown li span.seconds {
+font-size: 40px;
+line-height: 40px;
+}
+
+ul#countdown li p.timeRefDays,
+ul#countdown li p.timeRefHours,
+ul#countdown li p.timeRefMinutes,
+ul#countdown li p.timeRefSeconds {
+font-size: 20px;
+}
+
+/* menu */
+.menu {
+display: none;
+visibility: hidden;
+}
+
+/* menu mobile */
+.menu-mobile {
+position: relative;
+font-family: 'BebasNeueRegular';
+font-size: 20px;
+font-style: normal;
+font-weight: normal;
+text-shadow: 1px 1px 2px #000;
+-webkit-font-smoothing: antialiased;
+width: auto;
+top: 10px;
+right: 0;
+margin: 0;
+padding: 0 15px 0 0;
+display: inherit;
+visibility: visible;
+z-index: 1000;
+}
+
+/* dividers */
+.divider-left-top {
+display: none;
+visibility: hidden;
+}
+
+.divider-right-top {
+display: none;
+visibility: hidden;
+}
+
+.divider-left-bottom {
+display: none;
+visibility: hidden;
+}
+
+.divider-right-bottom {
+display: none;
+visibility: hidden;
+}
+
+/* box effect */
+.box {
+width: 220px;
+height: 360px;
+position: relative;
+background: rgba(255,255,255,1);
+display: inline-block;
+margin: 0 10px;
+/*
+cursor: pointer;
+color: #fff;
+box-shadow: inset 0 0 0 3px #fff;
+*/
+-webkit-transition: background 0.4s 0.5s;
+	    transition: background 0.4s 0.5s;
+margin: 20px 0 0 0;
+}
+
+.top, .left, .bottom, .right {
+display: none;
+visibility: hidden;
+}
+
+   }
+
+
+/* All Mobile Sizes (devices and browser) */
+   @media only screen and (max-width: 767px) {
+   }
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+   @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+/* layout */
+#intro-wrapper {
+position: relative;
+top: 58px;
+}
+
+.lower-content {
+padding: 10px 0 0 0;
+}
+
+h1 {
+font-size: 80px;
+line-height: 80px;
+}
+
+h2 {
+font-size: 25px;
+line-height: 25px;
+}
+
+h3 {
+font-size: 25px;
+line-height: 25px;
+}
+
+h4 {
+font-size: 45px;
+line-height: 45px;
+padding: 58px 0 0 0;
+}
+
+h5 {
+font-size: 25px;
+line-height: 25px;
+}
+
+h6 {
+font-size: 18px;
+line-height: 18px;
+text-align: left;
+}
+
+.contact-intro-bottom-title {
+font-size: 25px;
+line-height: 25px;
+}
+
+/* borders */
+.borders {
+display: none;
+visibility: hidden;
+}
+
+/* countdown */
+#countdown-wrapper {
+position: relative;
+width: 260px;
+margin: 132px 0 0 10px;
+padding: 0;
+text-align: left;
+}
+
+ul#countdown li {
+width: 60px;
+}
+
+ul#countdown li span {
+font-size: 30px;
+line-height: 30px;
+}
+
+ul#countdown li span.seconds {
+font-size: 30px;
+line-height: 30px;
+}
+
+ul#countdown li p.timeRefDays,
+ul#countdown li p.timeRefHours,
+ul#countdown li p.timeRefMinutes,
+ul#countdown li p.timeRefSeconds {
+font-size: 20px;
+}
+
+/* menu */
+.menu {
+display: none;
+visibility: hidden;
+}
+
+/* menu mobile */
+.menu-mobile {
+position: relative;
+font-family: 'BebasNeueRegular';
+font-size: 20px;
+font-style: normal;
+font-weight: normal;
+text-shadow: 1px 1px 2px #000;
+-webkit-font-smoothing: antialiased;
+width: auto;
+top: 10px;
+right: 0;
+margin: 0;
+padding: 0 15px 0 0;
+display: inherit;
+visibility: visible;
+z-index: 1000;
+}
+
+/* contact form */
+#form-wrapper {
+width: 340px;
+}
+
+#form {
+width: 340px;
+}
+
+#form div {
+width: 340px;
+}
+
+#form div label {
+width: 325px;
+}
+
+#form input {
+width: 325px;
+}
+
+#form .subject {
+width: 325px;
+margin-bottom: 10px;
+}
+
+#form textarea {
+width: 325px;
+}
+
+#form .submit {
+margin-right: 3px;
+}
+
+.success {
+width: 340px;
+}
+
+#form .error {
+right: 5px;
+}
+
+/* newsletter form */
+#subscribe-wrapper {
+position: relative;
+text-align: left;
+margin: -61px 0 20px 8px;
+}
+
+.subscribesuccess {
+text-align: left;
+margin: 0 0 0 2px;
+}
+
+#subscribe .subscribeerror {
+text-align: left;
+margin: 0 0 0 2px;
+}
+
+/* dividers */
+.divider-left-top {
+display: none;
+visibility: hidden;
+}
+
+.divider-right-top {
+display: none;
+visibility: hidden;
+}
+
+.divider-left-bottom {
+display: none;
+visibility: hidden;
+}
+
+.divider-right-bottom {
+display: none;
+visibility: hidden;
+}
+
+   }
+
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+   @media only screen and (max-width: 479px) {
+
+/* layout */
+#intro-wrapper {
+position: relative;
+top: 58px;
+}
+
+.lower-content {
+padding: 10px 0 0 0;
+}
+
+h1 {
+font-size: 80px;
+line-height: 80px;
+}
+
+h2 {
+font-size: 25px;
+line-height: 25px;
+}
+
+h3 {
+font-size: 25px;
+line-height: 25px;
+}
+
+h4 {
+font-size: 45px;
+line-height: 45px;
+padding: 58px 0 0 0;
+}
+
+h5 {
+font-size: 25px;
+line-height: 25px;
+}
+
+h6 {
+font-size: 18px;
+line-height: 18px;
+text-align: left;
+}
+
+.contact-intro-bottom-title {
+font-size: 25px;
+line-height: 25px;
+}
+
+/* borders */
+.borders {
+display: none;
+visibility: hidden;
+}
+
+/* countdown */
+#countdown-wrapper {
+position: relative;
+width: 260px;
+margin: 132px 0 0 10px;
+padding: 0;
+text-align: left;
+}
+
+ul#countdown li {
+width: 60px;
+}
+
+ul#countdown li span {
+font-size: 30px;
+line-height: 30px;
+}
+
+ul#countdown li span.seconds {
+font-size: 30px;
+line-height: 30px;
+}
+
+ul#countdown li p.timeRefDays,
+ul#countdown li p.timeRefHours,
+ul#countdown li p.timeRefMinutes,
+ul#countdown li p.timeRefSeconds {
+font-size: 20px;
+}
+
+/* menu */
+.menu {
+display: none;
+visibility: hidden;
+}
+
+/* menu mobile */
+.menu-mobile {
+position: relative;
+font-family: 'BebasNeueRegular';
+font-size: 20px;
+font-style: normal;
+font-weight: normal;
+text-shadow: 1px 1px 2px #000;
+-webkit-font-smoothing: antialiased;
+width: auto;
+top: 10px;
+right: 0;
+margin: 0;
+padding: 0 15px 0 0;
+display: inherit;
+visibility: visible;
+z-index: 1000;
+}
+
+/* contact form */
+#form-wrapper {
+width: 240px;
+}
+
+#form {
+width: 240px;
+}
+
+#form div {
+width: 240px;
+}
+
+#form div label {
+width: 225px;
+}
+
+#form input {
+width: 225px;
+}
+
+#form .subject {
+width: 225px;
+margin-bottom: 10px;
+}
+
+#form textarea {
+width: 225px;
+}
+
+#form .submit {
+margin-right: 3px;
+}
+
+.success {
+width: 240px;
+}
+
+#form .error {
+right: 5px;
+}
+
+/* newsletter form */
+#subscribe-wrapper {
+position: relative;
+text-align: left;
+margin: -61px 0 20px 8px;
+}
+
+.subscribesuccess {
+text-align: left;
+margin: 0 0 0 2px;
+}
+
+#subscribe .subscribeerror {
+text-align: left;
+margin: 0 0 0 2px;
+}
+
+/* dividers */
+.divider-left-top {
+display: none;
+visibility: hidden;
+}
+
+.divider-right-top {
+display: none;
+visibility: hidden;
+}
+
+.divider-left-bottom {
+display: none;
+visibility: hidden;
+}
+
+.divider-right-bottom {
+display: none;
+visibility: hidden;
+}
+
+   }
